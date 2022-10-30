@@ -1,0 +1,44 @@
+.signup-container {
+    display: inline-block;
+    background: lightblue;
+    padding: 4em
+}
+.signup-name {
+  padding:1em
+}
+
+.signup-email {
+    padding: 1em
+}
+
+.email-label {
+    padding-left: 2em
+}
+
+.username-div {
+    margin-left: .2em
+}
+
+.username-label {
+    margin-left: .3em;
+}
+
+.password-label {
+  margin-left: .3em
+}
+
+.password-div {
+    padding: 1em
+}
+
+.confirm-label {
+    margin-left: .6em
+}
+
+.signup-button {
+    padding: .6em;
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+}
+

@@ -1,0 +1,16 @@
+.fish-div {
+    text-align: center;
+    padding-top: 5em;
+    }
+
+   .product-details-img {
+    display: inline-block;
+    height: 225px;
+
+   }
+
+   .details-hr {
+    border: 0;
+    height: .1px;
+    background-color: lightgrey
+   }

@@ -1,0 +1,21 @@
+.signin-container {
+    display: inline-block;
+    padding: 3.5em;
+    background: lightblue;
+    text-align: center;
+}
+
+.signin-password {
+    padding:1em;
+}
+
+.to-signup-div {
+    text-align: center
+}
+
+.signin-button {
+    padding: .4em;
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+}

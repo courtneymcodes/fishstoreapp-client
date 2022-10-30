@@ -1,0 +1,11 @@
+.fish-list-img {
+    height: 220px;
+    width: 220px;
+}
+
+.all-fish-button {
+    margin-bottom: 4em;  
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+}

@@ -1,0 +1,30 @@
+.header-links {
+    display: flex;
+    justify-content:right;
+    margin-right: 3em
+}
+
+.cart-icon-img {
+    height: 30px;
+    padding-left: 1em;
+    
+}
+
+.header-buttons {
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+    height: 1.8em
+}
+
+.cart-num {
+    margin-right: 2em;
+    margin-left: .1em;
+    font-weight: 900;
+}
+
+.warning {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em
+}

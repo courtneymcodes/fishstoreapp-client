@@ -1,0 +1,30 @@
+.contact-container {
+    display: inline-block;
+    padding: 5.5em;
+    background: lightblue
+}
+
+
+.contact-subject-label {
+  margin-left: 1.5em
+}
+
+.contact-message-label {
+    margin-left: 1em
+}
+
+.contact-email-div {
+    padding: 1em
+}
+
+.contact-message-div {
+  padding: 1em
+}
+
+.contact-submit {
+    padding: .6em;
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+}
+

@@ -1,0 +1,32 @@
+.create-review-container {
+    display: inline-block;
+    background: lightblue;
+    padding: 4em
+}
+
+.review-name-div {
+  font-size: 1.5em;
+}
+
+
+.rating-div {
+    padding-bottom: 3em;
+}
+
+.headline-div {
+    font-size: 1.5em;
+}
+
+.review-message-div {
+    display: flex;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.review-submit {
+    margin-top: 2em;
+    padding: .9em;
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+}

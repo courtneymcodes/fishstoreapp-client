@@ -1,0 +1,9 @@
+.about-container {
+    background: lightblue;
+    padding: 4em
+}
+
+.about-p {
+    padding: 3em;
+    font-size: 1.2em;
+}

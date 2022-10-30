@@ -1,0 +1,8 @@
+.checkout-div {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-name {
+    margin-right: 2em
+}

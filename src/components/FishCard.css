@@ -1,0 +1,29 @@
+.fish-div {
+    text-align: center;
+    padding-top: 5em;
+    }
+
+   .product-details-img {
+    display: inline-block;
+    height: 275px;
+    height: 275
+
+   }
+
+   .details-price {
+    padding: 1em
+   }
+
+.add-to-cart {
+    padding: .6em;
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+} 
+
+
+.details-hr {
+    border: 0;
+    height: .1px;
+    background-color: lightgrey
+   }

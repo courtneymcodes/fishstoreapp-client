@@ -1,0 +1,11 @@
+.reviews-list-container {
+    background: lightblue
+}
+
+.write-review {
+    border-radius: .8em;
+    background-color: ghostwhite;
+    border-color: darkgray;
+    padding: .5em;
+    margin-bottom: .7em;
+}
