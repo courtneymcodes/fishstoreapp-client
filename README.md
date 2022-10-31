@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+The Fish Shop is a MERN stack application of a sample ecommerce fish store. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The front end is deployed here: https://fishshopapp.netlify.app/
 
-## Available Scripts
+The backend is deployed here: https://thefishshop.up.railway.app/
 
-In the project directory, you can run:
+The home page contains a welcome page which includes an image that takes you to a collection of items when clicked.
 
-### `npm start`
+![welcome](https://user-images.githubusercontent.com/63630567/198900229-e7a75620-5e97-4263-bf09-30036b47e7ff.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The shop page displays the collection of aquarium fish and supplies that can be added to the cart.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![shopall](https://user-images.githubusercontent.com/63630567/198900781-5358ec01-284e-4d04-bd48-2ef3017f2abc.png)
 
-### `npm test`
+Each item contains a details page which will display when an items picture is clicked on. Items can also be added to the cart from this page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![details](https://user-images.githubusercontent.com/63630567/198900145-f0e1904e-ef64-4f12-9dbb-0338dd1f7c88.png)
 
-### `npm run build`
+All pages have an image of a shopping cart in the upper right hand corner of the page. The number beside the cart image changes when an item is added to the cart to display the total number of items that are in the cart.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![cartimg](https://user-images.githubusercontent.com/63630567/198900498-72b3a97a-3cae-435c-a801-4f7ea313b4de.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users can click on the shopping cart image to view their cart. If the user is signed into an account, their name will display at the top.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![usercart](https://user-images.githubusercontent.com/63630567/198901048-722a595c-44d2-4bf6-9e6f-025feafbec9b.png)
 
-### `npm run eject`
+When a user clicks on the checkout button, they will be directed to sign in if they are not signed in. If they do not have an account they can click on sign up to sign up for an account.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![signin](https://user-images.githubusercontent.com/63630567/198901153-b2de2205-0611-4963-a294-0508faa55a20.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the user is signed in, they can click on the checkout button and be taken to their order summary. After placing their order, they are shown a message thanking them for their order. They can log out by clicking on the logout button next to the shopping cart image in the upper right hand corner.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![summary](https://user-images.githubusercontent.com/63630567/198925674-099dbb89-74e8-4863-9bc9-821a1f2bb496.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![thanks](https://user-images.githubusercontent.com/63630567/198925719-4e93ef7f-1d04-4588-86e7-9b1053a37c81.png)
 
-## Learn More
+Completed orders are stored to mongoDB and can be viewed by visiting the order history link.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This site also contians a customer reviews page that displays customer reviews. Users can write a new review by clicking on the write a review button. Reviews are saved to MongoDb and immediately added to the page when submitted.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![reviewslist](https://user-images.githubusercontent.com/63630567/198899855-422464d4-0c4c-4c0c-b3b7-3b26bed0a2cd.png)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![writereview](https://user-images.githubusercontent.com/63630567/198899738-9ca59c27-947e-47f7-a904-bb868bc21d8f.png)
